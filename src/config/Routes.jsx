@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router";
 import App from "../App";
-import ChatPage from "./ChatPage";
+import ChatPage from "../components/ChatPage";
 const AppRoutes = () => {
   return (
     <Routes>
@@ -12,5 +12,4 @@ const AppRoutes = () => {
     </Routes>
   );
 };
-
 export default AppRoutes;
